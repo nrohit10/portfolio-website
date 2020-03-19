@@ -9,21 +9,21 @@
 	<!-- Google Fonts -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
 	<link rel="stylesheet" href="css/style.css">
-</head>
+<head>
 <body>
 	<header>
 		<div class="logo">
-			<img src="img/rohitnaidu.png" alt="">
+			<img src="#" alt="">
 		</div>
 		<button class="nav-toggle" aria-label="toggle navigation">
-			<span class="hamburger"></span>
+			<span class="hamburger nav-open"></span>
 		</button>
 		<nav class="nav">
 			<ul class="nav__list">
-				<li class="nav__item"><a href="#home"></a>Home</li>
-				<li class="nav__item"><a href="#services"></a>My Services</li>
-				<li class="nav__item"><a href="#about"></a>About Me</li>
-				<li class="nav__item"><a href="#work"></a>My Work</li>
+				<li class="nav__item"><a href="#home" class="nav__link">HOME</a></li>
+				<li class="nav__item"><a href="#services" class="nav__link">MY SERVICES</a></li>
+				<li class="nav__item"><a href="#about" class="nav__link">ABOUT ME</a></li>
+				<li class="nav__item"><a href="#work" class="nav__link">MY WORK</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -32,8 +32,8 @@
 		<h1 class="section__title section__title--intro">
 			Hi, I am <strong>Rohit Naidu</strong>
 		</h1>
-		<p class="section__subtitle section__subtitle--intro">front-end dev</p>
-		<img src="img/dev-jane-01.png" alt="a picture of Jane Smith Smiling">
+		<p class="section__subtitle section__subtitle--intro">Software Engineer</p>
+		<img src="img/rohit-naidu-1.JPG" alt="a picture of Jane Smith Smiling" class="intro__img">
 	</section>
 
 	<!-- My Services -->
@@ -55,79 +55,96 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis possimus dignissimos quaerat excepturi, ratione, at rem ipsa unde eos cupiditate maxime incidunt mollitia sequi dicta iure qui praesentium veritatis non.</p>
 			</div> <!--Close individual service -->
 		</div> <!--Close Services -->
-		<a href="work" class="btn">My Work</a>
+		<a href="#work" class="btn">My Work</a>
 	</section>
 	<!--About Me-->
 	<section class="about-me" id="about">
 		<h2 class="section__title section__title--about">Who I am</h2>
-		<p class="section__subtitle section__subtitle--about"></p>
+		<p class="section__subtitle section__subtitle--about">Software Engineer based out of Pune, Maharashtra</p>
 
 		<div class="about-me__body">
-			<p></p>
-			<p></p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, libero. Dolore, eligendi voluptas et qui molestiae aperiam esse reprehenderit quaerat autem, necessitatibus deleniti officiis nobis, voluptates eius iste. Magni, quo.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore dignissimos dolores, sunt molestiae nesciunt officiis, et dolore assumenda nulla aliquam excepturi alias commodi ducimus, suscipit laborum, nam quae vitae pariatur?</p>
 		</div>
 
-		<img src="img/Rectangle 3-10.png" alt="Jane leaning against a bus">
+		<img src="img/rohit-naidu-2.JPG" alt="Rohit leaning against a wall" class="about-me__img">
 	</section>
 
 	<!-- My Work -->
 	<section class="my-work" id="work">
-		<h2 class="section__title"></h2>
-		<p class="section__subtitle"></p>
+		<h2 class="section__title section__title--work">My Work</h2>
+		<p class="section__subtitle section__subtitle--work">A selection of my range of work.</p>
 
 		<div class="portfolio">
 			<!-- Portfolio Item 01 -->
 			<a href="#" class="portfolio__item">
-				<img src="img/Rectangle 3-1.png" alt="">
+				<img src="img/portfolio-01.png" alt="" class="portfolio__img">
 			</a>
 			<!-- Portfolio Item 02 -->
 			<a href="#" class="portfolio__item">
-				<img src="" alt="">
+				<img src="img/portfolio-02.png" alt="" class="portfolio__img">
 			</a>
 			<!-- Portfolio Item 03 -->
 			<a href="#" class="portfolio__item">
-				<img src="" alt="">
+				<img src="img/portfolio-03.png" alt="" class="portfolio__img">
 			</a>
 			<!-- Portfolio Item 04 -->
 			<a href="#" class="portfolio__item">
-				<img src="" alt="">
+				<img src="img/portfolio-04.png" alt="" class="portfolio__img">
 			</a>
 			<!-- Portfolio Item 05 -->
 			<a href="#" class="portfolio__item">
-				<img src="" alt="">
+				<img src="img/portfolio-05.png" alt="" class="portfolio__img">
 			</a>
 			<!-- Portfolio Item 06 -->
 			<a href="#" class="portfolio__item">
-				<img src="" alt="">
+				<img src="img/portfolio-06.png" alt="" class="portfolio__img">
 			</a>
 			<!-- Portfolio Item 07 -->
 			<a href="#" class="portfolio__item">
-				<img src="" alt="">
+				<img src="img/portfolio-07.png" alt="" class="portfolio__img">
 			</a>
 			<!-- Portfolio Item 08 -->
 			<a href="#" class="portfolio__item">
-				<img src="" alt="">
+				<img src="img/portfolio-08.png" alt="" class="portfolio__img">
 			</a>
 			<!-- Portfolio Item 09 -->
 			<a href="#" class="portfolio__item">
-				<img src="" alt="">
+				<img src="img/portfolio-09.png" alt="" class="portfolio__img">
 			</a>
 			<!-- Portfolio Item 10 -->
 			<a href="#" class="portfolio__item">
-				<img src="" alt="">
+				<img src="img/portfolio-10.png" alt="" class="portfolio__img">
 			</a>
 		</div>
 	</section>
 
 	<!-- Footer -->
-	<footer>
-		<a href="mailto:hello@jane.com" class="footer__link"></a>
+	<footer class="footer">
+		<a href="mailto:hello@jane.com" class="footer__link">rohit.naidu@gmail.com</a>
 		<ul class="social-list">
-			<li class="social-list__item"><a href="" class="social-list__link"></a></li>
-			<li class="social-list__item"><a href="" class="social-list__link"></a></li>
-			<li class="social-list__item"><a href="" class="social-list__link"></a></li>
-			<li class="social-list__item"><a href="" class="social-list__link"></a></li>
+			<li class="social-list__item">
+				<a href="https://codepen.io" class="social-list__link">
+					<i class="fab fa-codepen"></i>
+					</a>
+			</li>
+			<li class="social-list__item">
+				<a href="https://linkedin	.com" class="social-list__link">
+					<i class="fab fa-linkedin"></i>
+				</a>
+			</li>
+			<li class="social-list__item">
+				<a href="https://twitter.com" class="social-list__link">
+					<i class="fab fa-twitter"></i>
+				</a>
+			</li>
+			<li class="social-list__item">
+				<a href="https://github.com" class="social-list__link">
+					<i class="fab fa-github"></i>
+				</a>
+			</li>
 		</ul>
 	</footer>
+	<script src="js/index.js"></script>
 </body>
 </html>
